@@ -1,0 +1,39 @@
+{
+  "name": "victorapr28/laravel-analytics",
+  "description": "An opinionated Laravel package to retrieve Google Analytics data.",
+  "keywords": [
+    "spatie",
+    "google",
+    "analytics",
+    "retrieve",
+    "reports",
+    "laravel"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "victor",
+      "email": "victorapr28@gmail.com",
+      "role": "Developer"
+    },
+    {
+      "name": "Victor",
+      "email": "victorapr28@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Spatie\\LaravelAnalytics\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Spatie\\LaravelAnalytics\\Tests\\": "tests"
+    }
+  }
+}
