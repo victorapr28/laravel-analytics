@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\LaravelAnalytics;
+namespace Victorapr\LaravelAnalytics;
 
 use Illuminate\Support\Facades\Facade;
 

@@ -2,7 +2,7 @@
   "name": "victorapr28/laravel-analytics",
   "description": "An opinionated Laravel package to retrieve Google Analytics data.",
   "keywords": [
-    "spatie",
+    "Victorapr",
     "google",
     "analytics",
     "retrieve",
@@ -28,12 +28,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Spatie\\LaravelAnalytics\\": "src"
+      "Victorapr\\LaravelAnalytics\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Spatie\\LaravelAnalytics\\Tests\\": "tests"
+      "Victorapr\\LaravelAnalytics\\Tests\\": "tests"
     }
   }
 }

@@ -11,10 +11,10 @@ class LaravelAnalyticsTest extends PHPUnit_Framework_TestCase
 
     public function setUp()
     {
-        $this->client = Mockery::mock('\Spatie\LaravelAnalytics\GoogleApiHelper');
+        $this->client = Mockery::mock('\Victorapr\LaravelAnalytics\GoogleApiHelper');
         $this->siteId = '12345';
 
-        $this->laravelAnalytics = new \Spatie\LaravelAnalytics\LaravelAnalytics($this->client, $this->siteId);
+        $this->laravelAnalytics = new \Victorapr\LaravelAnalytics\LaravelAnalytics($this->client, $this->siteId);
     }
 
     /**
@@ -162,10 +162,10 @@ class LaravelAnalyticsTest extends PHPUnit_Framework_TestCase
      */
     public function testIsEnabled()
     {
-        $enabledAnalytics = new \Spatie\LaravelAnalytics\LaravelAnalytics($this->client, $this->siteId);
+        $enabledAnalytics = new \Victorapr\LaravelAnalytics\LaravelAnalytics($this->client, $this->siteId);
         $this->assertTrue($enabledAnalytics->isEnabled());
 
-        $disabledAnalytics = new \Spatie\LaravelAnalytics\LaravelAnalytics($this->client);
+        $disabledAnalytics = new \Victorapr\LaravelAnalytics\LaravelAnalytics($this->client);
         $this->assertFalse($disabledAnalytics->isEnabled());
     }
 

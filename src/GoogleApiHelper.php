@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\LaravelAnalytics;
+namespace Victorapr\LaravelAnalytics;
 
 use Carbon\Carbon;
 use Exception;
@@ -141,7 +141,7 @@ class GoogleApiHelper
      */
     private function determineCacheName(array $properties)
     {
-        return 'spatie.laravel-analytics.'.md5(serialize($properties));
+        return 'Victorapr.laravel-analytics.'.md5(serialize($properties));
     }
 
     /**
@@ -177,7 +177,7 @@ class GoogleApiHelper
      */
     private function determineRealTimeCacheName(array $properties)
     {
-        return 'spatie.laravel-analytics.RealTime.'.md5(serialize($properties));
+        return 'Victorapr.laravel-analytics.RealTime.'.md5(serialize($properties));
     }
 
     /**
